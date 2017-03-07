@@ -1,0 +1,61 @@
+/* latin */
+@font-face {
+  font-family: 'Gochi Hand';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gochi Hand'), local('GochiHand-Regular'), url(http://fonts.gstatic.com/s/gochihand/v7/ZZzTGmufF-Wq8IS3fkpBuwzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin */
+@font-face {
+  font-family: 'Lemon';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lemon Regular'), local('Lemon-Regular'), url(http://fonts.gstatic.com/s/lemon/v5/37y3XedAX-LulaixqZXgZaCWcynf_cDxXwCLxiixG1c.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+
+canvas {
+    background: lightyellow;
+    position: relative;
+    left: 80px;
+    top: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+body {
+    background: steelblue;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    color: #FFF;
+    font-family: Lemon, cursive;
+    font-size: 45px;
+    left: -110px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-shadow: -3px 3px #5EA8A1;
+    top: 130px;
+}
+
+.container {
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+
+.fast-mode-text {
+    color:coral;
+}
